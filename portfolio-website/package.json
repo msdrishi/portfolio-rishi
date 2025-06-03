@@ -2,14 +2,14 @@
   "name": "portfolio-website",
   "version": "1.0.0",
   "description": "Rishi Prasad's portfolio website",
+  "homepage": "https://msdrishi.github.io/portfolio-rishi",
   "main": "src/index.js",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "node deploy",
     "start": "webpack serve --mode development",
     "build": "webpack --mode production"
   },
-  "homepage": "https://msdrishi.github.io/portfolio-rishi",
   "keywords": [
     "portfolio",
     "website",
